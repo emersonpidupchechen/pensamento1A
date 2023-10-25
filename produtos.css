@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(237, 88, 42);
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(236, 242, 53);
+    text-decoration: underline;
+}
+#social{
+    width: 100px;
+    height: 100px;
+    padding: 50px 0;
+}
+#ambiental{
+width: 100px;
+height: 100px;
+padding: 50px 0;
+}
+#economico{
+    width: 100px;
+    height: 100px;
+    padding: 50px 0;
+}
+.pilares{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.pilares-descricao{
+font-size: 18px;
+}
+.pilares li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    }
+    .pilares li:hover {
+        border-color: rgb(236, 242, 53);;
+    }
+    .pilares li:active {
+        border-color: rgb(5, 82, 27);
+    }
+    .pilares li:hover h2{
+        font-size: 35px;
+    }
+    .pilares h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+    }
+    .copyright{
+        font-style: italic;
+        margin: 20px 0 0 ;
+    }
+
+
+
+
